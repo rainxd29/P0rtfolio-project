@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  --color-ink-950: #051f20;
+  --color-ink-900: #0b2b26;
+  --color-ink-800: #163832;
+  --color-ink-700: #235347;
+  --color-sage-400: #8eb69b;
+  --color-mint-100: #daf1de;
+
+  --color-background: #daf1de;
+  --color-foreground: #051f20;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
